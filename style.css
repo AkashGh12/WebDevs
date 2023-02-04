@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(./assets/foods.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    font-weight: 500;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-weight: 500;
+}
+nav li{
+    list-style: none;
+    color: #FFC300;
+}
+nav button{
+    background-color: #FF4433;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+main{
+    text-align: center;
+    font-size:xx-large;
+    padding: 50px;
+    color: #FFC300;
+    font-weight:bolder;
+}
+main button{
+    background-color: #FF4433;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+footer{
+    display: flex;
+    align-self:end;
+    
+}
