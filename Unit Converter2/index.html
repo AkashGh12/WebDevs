@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Unit Converter</h1>
+    <div class="converter">
+        <input type="number" id="inputValue" placeholder="Enter value">
+        <select id="inputUnit">
+            <option value="cm">Centimeter</option>
+            <option value="in">Inch</option>
+            <option value="m">Meter</option>
+            <option value="ft">Feet</option>
+        </select>
+        <!-- // **assign conver funtion in convert button  -->
+        <button onclick="convert()">Convert</button>
+        <input type="text" id="outputValue" readonly>
+        <select id="outputUnit">
+            <option value="cm">Centimeter</option>
+            <option value="in">Inch</option>
+            <option value="m">Meter</option>
+            <option value="ft">Feet</option>
+        </select>
+        
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
