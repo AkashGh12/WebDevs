@@ -1,0 +1,118 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    font-family:'Times New Roman', Times, serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Adjust the number of columns as needed */
+    grid-gap: 20px; /* Adjust the gap between cards */
+}
+.flex{
+    display: flex;
+    align-items: center;
+    column-gap: 10px; 
+}
+.container{
+    max-width: 1200px;
+    margin-inline:auto;
+    overflow: hidden;
+}
+nav{
+    background-color: rgb(209, 240, 240);
+    margin: 0%;
+    /* position: fixed; */
+    height: 60px;
+}
+.main-nav{
+    justify-content: space-between;
+    padding-block: 8px;
+}
+.links ul{
+    display: flex;
+    gap: 16px;
+    
+}
+img{
+    width: 70px;
+    height: 50px;
+}
+.nav-item:active{
+    color: #fff;
+}
+.hover-link{
+    cursor: pointer;
+}
+.hover-link:hover{
+    color: rgb(8, 145, 236);
+}
+.hover-link:active{
+    color: red;
+}
+.search{
+    height: 32px;
+    gap: 16px;
+}
+.news-input{
+    border-style: none;
+    padding: 7px;
+    border-radius: 5px;
+}
+.search-button{
+    border-style: none;
+    padding: 5px;
+    background-color: rgb(8, 145, 236);
+    color: white;
+    cursor: pointer;
+}
+.search-button:hover{
+    background-color: rgb(4, 80, 131);
+}
+main{
+    padding: 20px;
+    margin-top: 20px;
+}
+.card-container{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+}
+.card{
+    width: 360px;
+    min-width: 400px;
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 0 rgba(7, 7, 7, 0.2);
+    cursor: pointer;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+.card:hover{
+    box-shadow: 1px 1px 8px 0 rgba(241, 180, 180, 0.4);
+    transform: translateY(-5px);
+    
+}
+.card-header img{
+    width: 400px;
+    height: 200px;
+}
+.card-container{
+    padding: 12px;
+
+}
+.news-source{
+    margin-top:10px;
+    margin-bottom: 10px;
+}

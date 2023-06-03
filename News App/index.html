@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav >
+        <div class="main-nav container flex">
+            <div class="logo">
+                <img src="./logo.jpg" alt="logo" onclick="reload()">
+            </div>
+            <div class="links">
+                <ul>
+                    <li class="hover-link nav-items" id="IPL" onclick="onNavItemClick('IPL')">IPL</li>
+                    <li class="hover-link nav-items" id="Sports" onclick="onNavItemClick('Sports')">Sports</li>
+                    <li class="hover-link nav-items" id="Finance" onclick="onNavItemClick('Finance')">Finance</li>
+                    <li class="hover-link nav-items" id="Technology" onclick="onNavItemClick('Technology')">Technology</li>
+                </ul>
+            </div>
+            <div class="search flex">
+                <input type="text" id="news-input" class="news-input" placeholder="e.g.Science">
+                <button class="search-button" id="search-button">search</button>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="cards-container grid container" id="cards-container">
+            <!-- <div class="card">
+                <div class="card-header">
+                    <img src="https://via.placeholder.com/400x200" alt="" id="news-img">
+                </div>
+                <div class="card-container">
+                    <h3 class="news-title" id="news-title">Title</h3>
+                    <h6 class="news-source" id="news-source">The gadget 20/03/2023</h6>
+                    <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatibus quas quaerat voluptatum voluptas voluptatibus quae eum voluptatum quasi voluptatibus </p>
+                </div>
+            </div> -->
+            
+            
+        </div>
+    </main>
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="https://via.placeholder.com/400x200" alt="" id="news-img">
+            </div>
+            <div class="card-container">
+                <h3 class="news-title" id="news-title">Title</h3>
+                <h6 class="news-source" id="news-source">The gadget 20/03/2023</h6>
+                <p class="news-desc" id="news-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum voluptatibus quas quaerat voluptatum voluptas voluptatibus quae eum voluptatum quasi voluptatibus </p>
+            </div>
+        </div>
+    </template>
+    <script src="./script.js"></script>
+</body>
+</html>
