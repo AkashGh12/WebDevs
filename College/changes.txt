@@ -1,0 +1,13 @@
+ Styles1
+#student-login{
+    margin-top: 125px;
+  }
+#student-signup{
+    margin-top: 75px;
+  } 
+ #teacher-login{
+    margin-top: 125px;
+  } 
+  #teacher-signup{
+    margin-top: 75px;
+  } 

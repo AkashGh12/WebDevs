@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <section id="student-signup" class="signup-section">
+        <h2>Student Signup</h2>
+        <form action="student_signup_process.php" method="post">
+          <label for="student-fullname">Full Name:</label>
+          <input type="text" id="student-fullname" name="student_fullname" required>
+          <label for="student-email">Email:</label>
+          <input type="email" id="student-email" name="student_email" required>
+          <label for="student-username">Username:</label>
+          <input type="text" id="student-username" name="student_username" required>
+          <label for="student-password">Password:</label>
+          <input type="password" id="student-password" name="student_password" required>
+          <input type="submit" value="Signup">
+        </form>
+      </section>
+</body>
+</html>

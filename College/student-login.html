@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <section id="student-login" class="login-section">
+        <h2>Student Login</h2>
+        <form action="student_login_process.php" method="post">
+          <label for="student-username">Username:</label>
+          <input type="text" id="student-username" name="student_username" required>
+          <label for="student-password">Password:</label>
+          <input type="password" id="student-password" name="student_password" required>
+          <input type="submit" value="Login">
+        </form>
+        <p>Don't have an account? <a href="student-signup.html">Sign up here</a>.</p>
+      </section>
+</body>
+</html>
